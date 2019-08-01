@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box; }
+
+header {
+    background-image: linear-gradient(to right bottom, rgba(37, 116, 153, 0.5), rgba(165, 41, 41, 0.5)), url(https://cdn.pixabay.com/photo/2018/07/30/00/23/laptop-3571478_960_720.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+.section-logo img{
+    width: 5rem;
+    height: 5rem;
+}
+.nav-bar {
+    width: 100%;
+    padding: 1rem 5rem;
+    display: flex;
+    border-bottom: 1px solid grey
+}
+.nav-bar-ul {
+    display: flex;
+    margin-left:auto;
+    padding: 1rem 0;
+}
+.nav-bar-ul li{
+    list-style:none;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.nav-bar-ul li a {
+    color: black;
+    text-decoration: none
+}
+.nav-bar-ul li a:hover {
+    color:rgba(234, 234, 255, 0.829);
+
+}
+
+.hamburger {
+    display: none
+}
+
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+      
+ }
+    80% {
+      transform: translateX(10px); 
+     }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+     } }
+  
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:  5rem;
+    animation-name: moveInLeft;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    
+}
+.header-h2{
+    
+}
+.header-h2 span {
+    display: block;
+}
+.header-h2 small {
+    font-size: 3rem;
+    display: block;
+
+}
+
+/* ----------------Media--------------- */
+
+@media (max-width: 767px) {
+    .nav-bar-ul {
+        display: none;
+    }
+    
+    .hamburger {
+        display: inherit
+    }
+    
+    .header-text {
+        font-size: 3rem
+    }
+    .header-text small {
+        font-size: 1.6rem
+    }
+
+}
+
+@media only screen and (min-width:767px) and (max-width: 1020px) {
+    .header-text {
+        font-size: 3.5rem
+    }
+    .header-text small {
+        font-size: 2rem
+    }
+}
