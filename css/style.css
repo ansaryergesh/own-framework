@@ -14,6 +14,7 @@ body {
   line-height: 1.7;
   box-sizing: border-box; }
 
+  /* Header */
 header {
     background-image: linear-gradient(to right bottom, rgba(37, 116, 153, 0.5), rgba(165, 41, 41, 0.5)), url(https://cdn.pixabay.com/photo/2018/07/30/00/23/laptop-3571478_960_720.jpg);
     background-size: cover;
@@ -93,7 +94,21 @@ header {
 .header-h2 small {
     font-size: 3rem;
     display: block;
+}
 
+/* About */
+
+.item-header h2:after{
+    position:absolute;
+    content:"T";
+    top:-8rem;
+    left:0;
+    right:0;
+    font-size:25rem;
+    font-weight:900;
+    line-height:21rem;
+    text-transform:uppercase;
+    opacity:0.1
 }
 
 /* ----------------Media--------------- */
