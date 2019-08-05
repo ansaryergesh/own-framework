@@ -98,6 +98,9 @@ section img {
 }
 
 /* About */
+.desc-header{
+    text-align: center;
+}
 
 .desc-header h2:after{
     position:absolute;
@@ -113,9 +116,6 @@ section img {
     opacity:0.4
 }
 
-main {
-    
-}
 .items {
     margin: 3rem 0;
 }
@@ -144,8 +144,39 @@ main {
 .blue {
     color: rgb(17, 17, 105);
 }
+.services{
+    text-align: center;
+}
+.service-head h2{
+    margin-top:5rem
+}
 
+.services-header h2:after{
+    position: absolute;
+    content: "02";
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0.4;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.2;
+    
+}
+.service-head p{
+    font-weight: bold;
+    font-size: 2rem;
+}
 
+.services-desc{
+    font-size: 1.5rem;
+    color: gray;
+}
+.service-head img{
+    height: 15rem;
+    width: 20rem;
+   
+}
 
 /* GRID SYSTEM */
 
