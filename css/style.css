@@ -52,7 +52,9 @@ header {
     color:rgba(234, 234, 255, 0.829);
 
 }
-
+section img {
+    width: 100%;
+}
 .hamburger {
     display: none
 }

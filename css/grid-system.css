@@ -30,11 +30,10 @@ body {
   width: 100%;
 }
 
-.row [class^="col"] {
+.row [div^="col"] {
   float: left;
   margin: 5px 2%;
   min-height: 1.2px;
-  background-color: black
 }
 
 .col-1,
@@ -50,6 +49,9 @@ body {
 .col-11,
 .col-12 {
   width: 96%;
+  /* float: left;
+  margin: 5px 2%;
+  min-height: 1.2px; */
 }
 
 .col-1 {
