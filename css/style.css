@@ -53,7 +53,8 @@ header {
 
 }
 section img {
-    width: 100%;
+    width: 15rem;
+    height: 18rem;
 }
 .hamburger {
     display: none
@@ -86,9 +87,7 @@ section img {
     animation-timing-function: ease-out;
     
 }
-.header-h2{
-    
-}
+
 .header-h2 span {
     display: block;
 }
@@ -138,6 +137,13 @@ section img {
     font-size: 2rem;
     font-weight: 600
 }
+.desc-items img {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+    
+} 
 .green {
     color: rgb(30, 170, 30);
 }
@@ -147,9 +153,7 @@ section img {
 .services{
     text-align: center;
 }
-.service-head h2{
-    margin-top:5rem
-}
+
 
 .services-header h2:after{
     position: absolute;
@@ -174,9 +178,53 @@ section img {
 }
 .service-head img{
     height: 15rem;
-    width: 20rem;
-   
+    width: 20rem;  
 }
+.project-header {
+    text-align: center
+}
+.project-header h2, .services-header h2 {
+    padding-top: 4rem
+}
+.project-header h2::after {
+    position: absolute;
+    content: "03";
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    opacity: 0.4;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+/* .project-block:hover {
+    opacity: 0.8;
+    -webkit-transition: .35s ease-in-out;
+    transition: .35s ease-in-out;
+    cursor: pointer
+}
+.button {
+    position: absolute;
+    bottom: 3%;
+    transform: translateX(150%);
+    left: 50%;
+    text-align: center;
+    opacity: 0;
+}
+
+.button a {
+    width: 200px;
+    padding: 12px 48px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+
+.project-block:hover .button a:hover {
+    opacity: 1;
+} */
+
 
 /* GRID SYSTEM */
 
@@ -198,6 +246,12 @@ section img {
     .header-text small {
         font-size: 1.6rem
     }
+    
+    .desc-items img {
+        width: 25rem;
+        height: 25rem;
+    }
+   
 
 }
 
