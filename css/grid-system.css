@@ -30,12 +30,21 @@ body {
   width: 100%;
 }
 
-.row [div^="col"] {
+.row [class^="col"] {
   float: left;
   margin: 5px 2%;
   min-height: 1.2px;
 }
-
+div[class^="col"]{
+  float: left;
+  margin: 5px 2%;
+  min-height: 1.2px;
+}
+section[class^="col"]{
+  float: left;
+  margin: 5px 2%;
+  min-height: 1.2px;
+}
 .col-1,
 .col-2,
 .col-3,
