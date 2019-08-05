@@ -99,18 +99,52 @@ section img {
 
 /* About */
 
-.item-header h2:after{
+.desc-header h2:after{
     position:absolute;
-    content:"T";
-    top:-8rem;
-    left:0;
-    right:0;
-    font-size:25rem;
+    content:"01";
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    right:0%;
+    font-size:5rem;
     font-weight:900;
-    line-height:21rem;
+    line-height:1.2;
     text-transform:uppercase;
-    opacity:0.1
+    opacity:0.4
 }
+
+main {
+    
+}
+.items {
+    margin: 3rem 0;
+}
+.description {
+    text-align: center;
+}
+.item-header {
+    margin:4rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.desc-text {
+    color : grey;
+    font-size: 2rem;
+    margin-bottom: 2rem
+}
+.img-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600
+}
+.green {
+    color: rgb(30, 170, 30);
+}
+.blue {
+    color: rgb(17, 17, 105);
+}
+
 
 
 /* GRID SYSTEM */
