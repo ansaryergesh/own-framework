@@ -29,7 +29,6 @@ header {
     height: 5rem;
 }
 .nav-bar {
-    width: 100%;
     padding: 1rem 5rem;
     display: flex;
     border-bottom: 1px solid grey
@@ -110,6 +109,10 @@ header {
     text-transform:uppercase;
     opacity:0.1
 }
+
+
+/* GRID SYSTEM */
+
 
 /* ----------------Media--------------- */
 
