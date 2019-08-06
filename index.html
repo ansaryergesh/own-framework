@@ -1,161 +1,237 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Own Framework</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="images/" >
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Own Framework</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid-system.css">
+
+</head>
+
+<body>
+    <div class="row">
         <header class="header">
             <div class="nav-bar">
                 <div class="section-logo">
-                    <img src="images/logo.jpg" alt="">
+                    <img src="https://www.stickpng.com/assets/images/5847eb76cef1014c0b5e484f.png" alt="">
                 </div>
                 <ul class="nav-bar-ul">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#description">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="hamburger"><i class="fas fa-bars"></i></li>
                 </ul>
             </div>
             <div class="header-text">
-                <h2 class="header">
-                    Web developer<small> Surename Name</small>
+                <h2 class="header-h2">
+                    <span>Web Developer</span>
+                    <small> Surename Name</small>
                 </h2>
+                <div class="header-content-scroll fa fa-angle-double-down"></div>
             </div>
+            
+            
         </header>
-        <main>
-            <div class="description">
-                <h2 class="item-header">
-                    Who I am?
-                </h2>
-
-                <p class="desc-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis, soluta vitae pariatur dicta voluptatem cum natus quisquam, ipsa, voluptate iure explicabo esse ducimus placeat alias veniam voluptatum asperiores. Sit?</p>
-
-                <section class="desc-items item-1">
+    </div>
+    <main>
+        <div class="container">
+            <div class="items row">
+                <div class="col-12 description " id="description">
+                    <div class="desc-header">
+                        <h2 class="item-header">
+                            Who I am?
+                        </h2>
+                    </div>
+                    <p class="desc-text ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis,
+                        soluta vitae pariatur dicta voluptatem cum natus quisquam, ipsa, voluptate iure explicabo esse
+                        ducimus placeat alias veniam voluptatum asperiores. Sit? Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Quo veritatis,
+                        soluta vitae pariatur dicta voluptatem cum natus quisquam, ipsa, voluptate iure explicabo esse
+                        ducimus placeat alias veniam voluptatum asperiores. Sit?</p>
+                </div>
+                <section class="col-3  col-6-md col-sm-12 desc-items item-1 ">
                     <img src="images/customers.png" alt="">
-                    <p>+100</p>
+                    <div class="img-text">
+                        <p>Happy <span class="green">Customers</span></p>
+                        <p class="blue">+100</p>
+                    </div>
                 </section>
-                
-                <section class="desc-items item-2">
+
+                <section class="col-3 col-sm-12 desc-items item-2 ">
                     <img src="images/done.png" alt="">
-                    <p>+20</p>
+                    <div class="img-text">
+                        <p>Project <span class="green">Done</span></p>
+                        <p class="blue">+10</p>
+                    </div>
                 </section>
 
-                <section class="desc-items item-3">
+                <section class="col-3   col-sm-12 desc-items item-3 ">
                     <img src="images/satisfication.png" alt="">
-                    <p>100%</p>
+                    <div class="img-text">
+                        <p>Satisfication <span class="green">Rate</span></p>
+                        <p class="blue">+100</p>
+                    </div>
                 </section>
 
-                <section class="desc-items item-4">
+                <section class="col-3  col-sm-12 desc-items item-4 ">
                     <img src="images/expireience.png" alt="">
-                    <p>2</p>
+                    <div class="img-text">
+                        <p>Years Of <span class="green">Experience</span></p>
+                        <p class="blue">3</p>
+                    </div>
                 </section>
-
             </div>
 
-            <div class="services">
-                <h2 class="item-header">
+            <div class="services row" id="services">
+                <div class="services-header">
+                    <h2 class="item-header">
                         Services on offer
-                </h2>
-                <section class="services-items">
+                    </h2>
+                </div>
+                <section class="col-4 services-items ">
                     <div class="service-head">
-                        <img src="images/web-design.jpg" alt="">
+                        <img src="images/web-design.jpg" alt="web-desing">
                         <p>Web Design</p>
                     </div>
-                    <p class="services-desc">The Web design service includes preparation of the project in several versions. You decide which project will be implemented.</p>
+                    <p class="services-desc">The Web design service includes preparation of the project in several
+                        versions. You decide which project will be implemented.</p>
                 </section>
-            
 
-            
-                <section class="services-items">
+                <section class="col-4 services-items ">
                     <div class="service-head">
                         <img src="images/web-develop.png" alt="">
                         <p>Web Development</p>
                     </div>
-                    <p class="services-desc">uring the implementation I use the latest technology. I create modern and properly coded websites.</p>
+                    <p class="services-desc">During the implementation I use the latest technology. I create modern and
+                        properly coded websites.</p>
                 </section>
-
-                <section class="services-items">
+                <section class="col-4 services-items ">
                     <div class="service-head">
                         <img src="images/responsive-design.png" alt="">
                         <p>Web Design</p>
                     </div>
-                    <p class="services-desc">Responsive websites are the future! I put a lot of emphasis on the correct display of the page on each device regardless of its resolution.</p>
+                    <p class="services-desc">Responsive websites are the future! I put a lot of emphasis on the correct
+                        display of the page on each device regardless of its resolution.</p>
                 </section>
-            </div>
 
-            <div class="projects">
-                <section class="project-item">
-                    <div class="project-block">
-
+                <section class="col-4 services-items ">
+                    <div class="service-head">
+                        <img src="images/psd2html.jpg" alt="web-desing">
+                        <p>PSD2HTML</p>
                     </div>
+                    <p class="services-desc">PSD2HTML is a conversion of graphic design to HTML, CSS and JavaScript
+                        code. As software I use mostly Avocode or Photoshop software.</p>
+                </section>
+
+                <section class="col-4 services-items ">
+                    <div class="service-head">
+                        <img src="images/consulting.jpg" alt="">
+                        <p>Consulting</p>
+                    </div>
+                    <p class="services-desc">I also offer an IT consultancy in the area of planning solutions that
+                        reduce time and financial costs.</p>
+                </section>
+
+                <section class="col-4 services-items ">
+                    <div class="service-head">
+                        <img src="images/it_adm.png" alt="">
+                        <p>IT Administration</p>
+                    </div>
+                    <p class="services-desc">Once you decide to use my services, you will not need to worry about the
+                        updates, I will make them for you.</p>
                 </section>
             </div>
-            <div class="projects">
-                    <section class="project-item">
-                        <div class="project-block">
-                            
-                        </div>
-                    </section>
-            </div>
-            <div class="projects">
-                    <section class="project-item">
-                        <div class="project-block">
-                            
-                        </div>
-                    </section>
+            <div class="row">
+                <div class="project-header" id="projects">
+                    <h2 class="item-header">
+                        Completed Projects
+                    </h2>
                 </div>
-            <div class="projects">
-                <section class="project-item">
-                    <div class="project-block">
+                <div class="col-6 projects ">
+                    <img src="images/block1.png" alt="" style="width: 100%; height: 30rem; border: 1px solid grey">
+                    
+                </div>
+                <div class="col-6 projects ">
+                    <img src="images/block3.png" alt="" style="width: 100%; height: 30rem; border: 1px solid grey">
+                    
+                </div>
+                <div class="col-6 projects ">
+                    <img src="images/block4.png" alt="" style="width: 100%; height: 30rem; border: 1px solid grey">
+                    
+                </div>
+                <div class="col-6 projects ">
+                    <img src="images/block5.png" alt="" style="width: 100%; height: 30rem; border: 1px solid grey">
+                    
+                </div>
+                <div class="col-6 projects ">
+                        <img src="images/block6.png" alt=""
+                        style="width: 100%; height: 30rem; border: 1px solid grey">
                         
                     </div>
-                </section>
-                </div>
-
-            <div class="projects">
-                <section class="project-item">
-                    <div class="project-block">
+                    <div class="col-6 projects ">
+                        <img src="images/block1.png" alt=""
+                            style="width: 100%; height: 30rem; border: 1px solid grey">
                         
                     </div>
-                </section>
             </div>
-            <div>
-                <div>
+
+             
+
+            <div class="row">
+                <div class="form-header" id="contact">
+                    <h2 class="item-header">
+                        Get in Touch
+                    </h2>
+                </div>
+                <div class="col-4 info ">
                     <ul>
-                        <li class="">
+                        <li class="info-item">
                             <img alt="email-icon" src="images/email.icon.PNG">
-                            <mail:to>hello@ownframework.com</mail:to>
+                            <mail:to class="info-text">hello@ownframework.com</mail:to>
                         </li>
-                        <li class="">
+                        <li class="info-item">
                             <img alt="gps-icon" src="images/gps.icon.PNG">
-                            YYYY,ZZZZ
+                            <p class="info-text">YYYY,ZZZZ</p>
+
                         </li>
-                        <li class="">
+                        <li class="info-item ">
                             <img alt="time-icon" src="images/time.icon.PNG">
-                            9 AM - 5 PM, UTC - 6
+                            <p class="info-text">9 AM - 5 PM, UTC - 6</p>
                         </li>
                     </ul>
                 </div>
-                <form>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Subject">
-                    <input type="text" placeholder="Your Phone Number">
-                    <input type="text" placeholder="Your Email Address">
-                    <input type="text" placeholder="Your Message">
-                    <input type="checkbox">
-                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt, harum sint in impedit dolorem nisi rerum quaerat voluptate cumque, veniam quo blanditiis pariatur maiores sit quibusdam quas beatae consequuntur.</small>
-                    <input type="button" title="Send" value="Send">
+                <form class="col-8 form">
+                    <input class="input-text" type="text" placeholder="Name">
+                    <input class="input-text" type="text" placeholder="Subject">
+                    <input class="input-text" type="text" placeholder="Your Phone Number">
+                    <input class="input-text" type="text" placeholder="Your Email Address">
+                    <input class="input-text" type="text" placeholder="Your Message">
+                    <div>
+                        <input class="checkbox-item" type="checkbox">
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem deserunt, harum sint in
+                            impedit dolorem nisi rerum quaerat voluptate cumque, veniam quo blanditiis pariatur maiores
+                            sit quibusdam quas beatae consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur laudantium facilis enim modi, beatae corrupti unde nulla cumque incidunt,
+                            reiciendis ex praesentium eligendi quia, consequatur tenetur temporibus molestias a
+                            optio?</small>
+                    </div>
+
+                   <input class="button-send" type="button" title="Send" value="Send">
                 </form>
             </div>
-        </main>
-        <footer>
-            <p>©2019 OWM Framework Ansar - Anthony</p>
-        </footer>
-    </body>
+        </div>
+    </main>
+    <footer class="row">
+        <p class="col-12">©2019 OWM Framework Ansar - Anthony</p>
+    </footer>
+</body>
+
 </html>
