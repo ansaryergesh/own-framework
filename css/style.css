@@ -16,12 +16,12 @@ body {
 
   /* Header */
 header {
-    background-image: linear-gradient(to right bottom, rgba(37, 116, 153, 0.5), rgba(165, 41, 41, 0.5)), url(https://cdn.pixabay.com/photo/2018/07/30/00/23/laptop-3571478_960_720.jpg);
+    background-image: linear-gradient(to right bottom, rgba(100, 186, 226, 0.4), rgba(204, 111, 111, 0.4)), url(https://cdn.pixabay.com/photo/2018/07/30/00/23/laptop-3571478_960_720.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
     background-repeat: no-repeat;
-    height: 95vh;
+    height: 100vh;
 }
 
 .section-logo img{
@@ -31,12 +31,13 @@ header {
 .nav-bar {
     padding: 1rem 5rem;
     display: flex;
-    border-bottom: 1px solid grey
+    border-bottom: 1.5px solid grey
 }
 .nav-bar-ul {
     display: flex;
     margin-left:auto;
     padding: 1rem 0;
+    font-weight: 550
 }
 .nav-bar-ul li{
     list-style:none;
@@ -45,7 +46,7 @@ header {
     font-size: 2rem;
 }
 .nav-bar-ul li a {
-    color: black;
+    color: rgb(9, 9, 12);
     text-decoration: none
 }
 .nav-bar-ul li a:hover {
@@ -63,9 +64,8 @@ section img {
 @keyframes moveInLeft {
     0% {
       opacity: 0;
-      transform: translateX(-100px);
-      
- }
+      transform: translateX(-100px);  
+        }
     80% {
       transform: translateX(10px); 
      }
@@ -73,7 +73,15 @@ section img {
       opacity: 1;
       transform: translate(0);
      } }
-  
+@keyframes animation-rotate{
+    45%{
+        transform:translateY(-15px)}
+    100%
+    {
+        transform:translateY(0)
+    }
+}
+
 
 .header-text{
     position: absolute;
@@ -96,6 +104,21 @@ section img {
     display: block;
 }
 
+.header-content-scroll{
+    margin:6rem auto 0;
+    width:6rem;
+    height:6rem;
+    border:2px solid black;
+    font-size:4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation:animation-rotate 2s linear infinite;
+    cursor: pointer
+
+}
 /* About */
 .desc-header{
     text-align: center;
@@ -197,12 +220,12 @@ section img {
     font-weight: 900;
     line-height: 1.2;
 }
-/* .projects:hover {
+.projects:hover {
     opacity: 0.8;
     -webkit-transition: .35s ease-in-out;
     transition: .35s ease-in-out;
     cursor: pointer
-} */
+}
 .projects image {
     opacity: 1;
     display: block;
@@ -210,27 +233,6 @@ section img {
     backface-visibility: hidden;
 }
 
-.middle {
-    transition: .5s ease;
-    opacity: 1;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-  }
- 
-  .projects:hover .image {
-    opacity: 0.5;
-  }
-  .projects:hover .middle {
-    opacity: 1;
-  }  
-
-  .text {
-    background-color: rgb(34, 72, 240);
-    color: white;
-    font-size: 1.6rem;
-    padding: 16px 32px;
-  }
 
 .form-header{
     text-align: center;
@@ -341,5 +343,8 @@ footer{
     }
     .header-text small {
         font-size: 2rem
+    }
+    .hamburger {
+        display: inherit
     }
 }
