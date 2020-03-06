@@ -20,9 +20,7 @@ Install and open index.html with browser
 - Github: [@ansaryergesh](https://github.com/ansaryergesh)
 - Twitter: [@ansaryergesh](https://twitter.com/ansaryergesh)
 - Linkedin: [Ansar Yergeshov](https://www.linkedin.com/in/ansaryergesh/)
-
-👤 **Anthony**
--Github: [@AnthonyTC89](https://github.com/AnthonyTC89)
+- Gmail: yergeshovansar@gmail.com
 
 ## 🤝 Contributing
 
