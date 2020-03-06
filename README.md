@@ -1,10 +1,6 @@
 # Description
 To create own grid-based Framework
 
-Used: 
-* HTML
-* CSS
-
 ### Installing and Running program
 Install and open index.html with browser
 
@@ -14,8 +10,8 @@ Install and open index.html with browser
 
 ## Built With
 
-- React
-- Javascript ES6+
+* HTML
+* CSS
 
 ## Author:
 
@@ -27,6 +23,7 @@ Install and open index.html with browser
 
 👤 **Anthony**
 -Github: [@AnthonyTC89](https://github.com/AnthonyTC89)
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
