@@ -5,12 +5,44 @@ Used:
 * HTML
 * CSS
 
-Authors:
-===
-* Ansar https://github.com/ansaryergesh
-* Anthony https://github.com/AnthonyTC89
+### Installing and Running program
+Install and open index.html with browser
 
-The Website
-===
-https://rawcdn.githack.com/ansaryergesh/own-framework/77c11999c9eb49229552c94a3066e9312d8a2251/index.html
+## Live Demo
+
+[Live Demo](https://rawcdn.githack.com/ansaryergesh/own-framework/77c11999c9eb49229552c94a3066e9312d8a2251/index.html)
+
+## Built With
+
+- React
+- Javascript ES6+
+
+## Author:
+
+👤 **Ansar Yergeshov**
+
+- Github: [@ansaryergesh](https://github.com/ansaryergesh)
+- Twitter: [@ansaryergesh](https://twitter.com/ansaryergesh)
+- Linkedin: [Ansar Yergeshov](https://www.linkedin.com/in/ansaryergesh/)
+
+👤 **Anthony**
+-Github: [@AnthonyTC89](https://github.com/AnthonyTC89)
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+This page was inspired by my own bussines i'm a food-seller on my free times while im not writing code.
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
  
