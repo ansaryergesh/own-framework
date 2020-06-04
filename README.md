@@ -2,7 +2,7 @@
 To create own grid-based Framework and use it for styling.
 
 ### Screenshots
-![screenshot](https://drive.google.com/file/d/1HeqG2KuvLUFrPFuUmhwbccytg9arNDNp/view?usp=sharing)
+![screenshot](https://sun1.tele2-kz-shymkent.userapi.com/njfQ02J9TdgDvWzMpYa5WK-dJ8C1qui7VUHvtw/_ex4UFxWRps.jpg)
 
 ### Installing and Running program
 Install and open index.html with browser
