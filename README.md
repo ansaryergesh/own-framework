@@ -1,7 +1,7 @@
 # Description
 To create own grid-based Framework and use it for styling.
 
-### Screenshots
+### Screenshot
 ![screenshot](https://sun1.tele2-kz-shymkent.userapi.com/njfQ02J9TdgDvWzMpYa5WK-dJ8C1qui7VUHvtw/_ex4UFxWRps.jpg)
 
 ### Installing and Running program
