@@ -1,5 +1,5 @@
 # Description
-To create own grid-based Framework
+To create own grid-based Framework and use it for styling.
 
 ### Installing and Running program
 Install and open index.html with browser
